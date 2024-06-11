@@ -1,0 +1,74 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorar diretórios de sistema do Windows
+/Ambiente de Impressão/
+/Ambiente de Rede/
+/Configurações Locais/
+/Cookies/
+/Dados de Aplicativos/
+/Menu Iniciar/
+/Meus Documentos/
+/Modelos/
+/Recent/
+/SendTo/
+/AppData/
+/Contacts/
+/Documents/
+/Downloads/
+/Favorites/
+/Links/
+/Music/
+/Videos/
+/Searches/
+/Saved Games/
+
+# Ignorar arquivos de configuração de usuário
+/.bash_history
+/.cache/
+/.config/
+/.dotnet/
+/.eclipse/
+/.gitconfig
+/.idea/
+/.lesshst
+/.m2/
+/.nbi/
+/.node_repl_history
+/.p2/
+/.receitanet/
+/.rfb/
+/.vscode/
+/.yarnrc
+
+# Ignorar arquivos temporários e de sistema
+NTUSER.DAT
+*.TMP
+Thumbs.db
+desktop.ini
+
+# Ignorar outros arquivos e diretórios específicos
+*.log
+*.bak
+*.swp
