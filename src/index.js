@@ -9,7 +9,7 @@ import reportWebVitals from "./reportWebVitals";
 import App from "./App";
 
 const options = {
-    positions: positions.BOTTOM_CENTER,
+    position: positions.BOTTOM_CENTER,
     timeout: 2500,
     offset: '30px',
     transitions: transitions.SCALE
