@@ -6,7 +6,8 @@ const CustomInput = ({ label, value, onChange }) => {
             <input
                 type="text"
                 className="custom-input"
-                OnChange={(e) => onChange(e)}
+                value={value}  // Atribuindo o valor do input
+                onChange={(e) => onChange(e)}  // Correção do nome da prop
             />
 
             {label ? (
@@ -23,3 +24,4 @@ const CustomInput = ({ label, value, onChange }) => {
 };
 
 export default CustomInput;
+
